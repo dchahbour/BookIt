@@ -1,9 +1,9 @@
-import datetime
+from datetime import datetime
 def menu():
      print ("1) Add appointment")
      print ("2) List appointment")
      print ("3) Cancel appointment") 
-     print ("4) Exit")
+     print ("4) Exit\n")
 
 def main():
      app_info = []
@@ -11,7 +11,7 @@ def main():
      while True:
           menu()
           
-          choice = input("Enter a number from 1-4 to select a feature: ").strip()
+          choice = input("Enter a number from 1-4 to select a feature: \n").strip()
 
           # Add a dictionary to a list with the relevant information
           if choice == "1":
@@ -58,6 +58,7 @@ def main():
                if not app_info:
                     print("\nThere are no appointments to display.\n")
                else:
+                    print("\nViewing Appointments:")
                     print(f"\n{app_info}\n")
                
           
