@@ -1,1 +1,9 @@
-[]
+[
+    {
+        "Appointment ID": 1,
+        "Name": "Danny",
+        "Service": "Dentist",
+        "Date": "2026-12-25",
+        "Time": "12"
+    }
+]
